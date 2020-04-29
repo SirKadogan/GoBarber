@@ -15,14 +15,14 @@ At this point the server should be running.
 You can create an appointment (in preparation for when users select theri barber and create an appointment), or list all appointments.
 
 - Create appointment:
-  - hit this url: GET http:localhost:3000/appointments
+  - hit this url: GET http:localhost:3333/appointments
   - body:
     {
     "provider_id": pass the user ID generated from create user url here as string,
     "date": "{% now 'iso-8601', '' %}"
     }
 - List appointment:
-  - hit this url: POST http:localhost:3000/appointments
+  - hit this url: POST http:localhost:3333/appointments
 
 You can also create a user (in preparation for a login)
 
