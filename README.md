@@ -5,6 +5,13 @@ It is currently a work in progress.
 
 The application will be like a marketplace for barbers. They can list their services and manage appointments on the web application, while users can list barbers and make appointments on the mobile app.
 
+### Technologies used in this project so far
+
+- Typescript
+- Node.js
+- Docker
+- Postgres
+
 ### Instructions
 
 Since only the backend is available so far, you'll need to use a tool to interact with it, such as Insomnia or Postman.
