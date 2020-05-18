@@ -29,6 +29,7 @@
     ],
     "@typescript-eslint/camelcase": "off",
     "no-unused-expressions": "off",
+    "no-undef": "off",
     "react/prop-types": "off",
     "prettier/prettier": "error",
     "class-methods-use-this": "off",
